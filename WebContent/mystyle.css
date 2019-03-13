@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+.top_bar{
+	background:#006C3A;
+	padding:5px 0;}
+.social_icons{margin-right:5px;}
+.contact_info{color:#fff; font-size:16px;}
+.my_menu{ 
+	margin-top:27px;}
+.my_menu .navbar-default{
+	background:none; border:none;}
+.my_menu .navbar-nav .active a, .my_menu .navbar-nav .active a:hover{background:#006C3A; color:#fff;}
+.my_menu .navbar-nav li a:hover{background:#006C3A; color:#fff;}
+@media(max-width:1200px){
+	.my_menu .pull-right{float:none !important;}
+}
